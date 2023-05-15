@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ECHOES</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://users.metropolia.fi/~otsosaa/echoes/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="header">
+    <h1>ECHOES</h1>
+    <p>A GROUP 7 AUDITIVE WEBSITE PROJECT</p>
+</div>
+
+<div class="navbar">
+    <a href="http://users.metropolia.fi/~otsosaa/echoes/index.html">Home</a>
+    <a href="http://users.metropolia.fi/~otsosaa/echoes/profilepage.html">Profiles</a>
+    <a href="http://users.metropolia.fi/~otsosaa/echoes/mediapage.html">Media</a>
+    <a href="https://metropolia.fi/fi" class="right">Metropolia</a>
+</div>
+
+<div class="row">
+    <div class="side">
+        <h2>PROFILES</h2>
+        <h3>Learn more about the people behind the sounds.</h3>
+        <div class="img1" style="height:200px;">
+            <img src="http://users.metropolia.fi/~otsosaa/echoes/media/arrowwho.png", height="200", width="400"></div>
+
+        <br>
+        <br>
+        <br>
+        <h3>Contact us?</h3>
+        <form id="myform" method="post">
+            <label>your email</label>
+            <input type="text" name="user_email" />
+            <label>subject</label>
+            <input type="text" name="contact_number" />
+            <label>message</label>
+            <input type="text" name="message" />
+            <br><br>
+            <button>
+                Send
+            </button>
+        </form>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+        <script type="text/javascript">
+          (function(){
+            emailjs.init("user_Cg0iPXhsOP1dWiD0xTF3N");
+          })();
+        </script>
+        <script src="http://users.metropolia.fi/~otsosaa/echoes/js/formbox.js"></script>
+
+
+
+    </div>
+
+    <div class="profiles">
+        <img src="http://users.metropolia.fi/~otsosaa/echoes/media/otso.png" style="width:350px;height:480px;">
+        <h3 style="text-align: center;">Otso Säävälä</h3>
+        <h4 style="text-align: center;">Project planner, media content, visual & web design</h4>
+        <ul style="list-style-type:square;">
+            <li>e-mail: otso.saavala@metropolia.fi</li>
+            <li>phone: +358 44 3091090</li>
+        </ul>
+    </div>
+    <div class="profiles">
+        <img src="http://users.metropolia.fi/~otsosaa/echoes/media/viyada.png" style="width:350px;height:480px;">
+        <h3 style="text-align: center;">Viyada Heiskanen</h3>
+        <h4 style="text-align: center;">Promotion video, feedback & profiles</h4>
+        <ul style="list-style-type:square;">
+            <li>e-mail: viyada.heiskanen@metropolia.fi</li>
+            <li>phone: +358 50 4016359</li>
+        </ul>
+    </div>
+    <div class="profiles">
+        <img src="http://users.metropolia.fi/~otsosaa/echoes/media/tomi.png" style="width:350px;height:480px;">
+        <h3 style="text-align: center;">Tomi Laine</h3>
+        <h4 style="text-align: center;">API:s & map-interface functionality</h4>
+        <ul style="list-style-type:square;">
+            <li>e-mail: tomi.laine@metropolia.fi</li>
+            <li>phone: +358 40 1698250</li>
+    </div>
+</div>
+
+<div class="footer">
+    <h2>METROPOLIA</h2>
+</div>
+
+</body>
